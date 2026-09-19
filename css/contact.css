@@ -1,0 +1,63 @@
+.contact__intro {
+  color: var(--color-on-tertiary-container);
+  margin-bottom: var(--spacing-lg);
+}
+
+.channel-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding-block: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-outline-variant);
+}
+
+.channel__icon {
+  width: calc(var(--spacing-xl) * 0.5);
+  height: calc(var(--spacing-xl) * 0.5);
+  color: var(--color-on-surface-variant);
+  flex-shrink: 0;
+}
+
+.channel__body {
+  flex: 1;
+}
+
+.channel__name {
+  font-family: var(--font-label-md-family);
+  font-size: var(--font-label-md-size);
+  font-weight: var(--font-label-md-weight);
+  letter-spacing: var(--font-label-md-letter-spacing);
+  text-transform: uppercase;
+  color: var(--color-on-surface);
+}
+
+.channel__value {
+  margin-top: var(--spacing-xs);
+  color: var(--color-on-surface-variant);
+}
+
+.management {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-outline-variant);
+  color: var(--color-on-tertiary-container);
+}
+
+@media (max-width: 768px) {
+  .channel {
+    flex-wrap: wrap;
+  }
+
+  .channel__body {
+    flex-basis: 100%;
+  }
+
+  .channel .btn {
+    width: 100%;
+  }
+}

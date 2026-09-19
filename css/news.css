@@ -1,0 +1,119 @@
+.tabs {
+  display: flex;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.tabs__tab {
+  font-family: var(--font-label-md-family);
+  font-size: var(--font-label-md-size);
+  font-weight: var(--font-label-md-weight);
+  letter-spacing: var(--font-label-md-letter-spacing);
+  text-transform: uppercase;
+  color: var(--color-on-surface-variant);
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 1px solid transparent;
+}
+
+.tabs__tab--active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+.tabs__panel {
+  display: none;
+}
+
+.tabs__panel--active {
+  display: block;
+}
+
+.news-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding-block: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-outline-variant);
+}
+
+.news-row__date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: calc(var(--spacing-xl) * 1.5);
+}
+
+.news-row__day {
+  font-family: var(--font-body-lg-family);
+  font-size: calc(var(--font-body-lg-size) * 2);
+  font-weight: var(--font-body-lg-weight);
+  line-height: 1;
+  color: var(--color-on-surface);
+}
+
+.news-row__month {
+  font-family: var(--font-label-sm-family);
+  font-size: var(--font-label-sm-size);
+  letter-spacing: var(--font-label-sm-letter-spacing);
+  text-transform: uppercase;
+  color: var(--color-on-surface-variant);
+}
+
+.news-row__body {
+  flex: 1;
+}
+
+.news-row__event {
+  font-family: var(--font-body-lg-family);
+  font-size: var(--font-body-lg-size);
+  font-weight: var(--font-body-lg-weight);
+  line-height: var(--font-body-lg-line-height);
+  color: var(--color-on-surface);
+}
+
+.news-row__venue {
+  margin-top: var(--spacing-xs);
+  color: var(--color-on-surface-variant);
+}
+
+.news-row__actions {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.news-row--past {
+  color: var(--color-tertiary);
+}
+
+.news-row--past .news-row__day,
+.news-row--past .news-row__event {
+  color: var(--color-tertiary);
+}
+
+.news-row--past .news-row__actions {
+  display: none;
+}
+
+.news-empty {
+  padding-block: var(--spacing-lg);
+  color: var(--color-on-surface-variant);
+}
+
+.news-empty a {
+  color: var(--color-primary);
+}
+
+@media (max-width: 480px) {
+  .news-row {
+    flex-wrap: wrap;
+  }
+
+  .news-row__actions {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .news-row__actions .btn {
+    flex: 1;
+  }
+}
