@@ -1,0 +1,106 @@
+/* ADELE MOON — visual identity tokens
+   Palette: espresso #291915 · citron #C8CC79 · copper #B97549
+   Aesthetic: Royal Minimalism · Cultural Eclecticism · Archival Couture */
+:root {
+  --brand-espresso: #291915;
+  --brand-citron: #c8cc79;
+  --brand-copper: #b97549;
+
+  --color-primary: #c8cc79;
+  --color-on-primary: #291915;
+  --color-primary-container: #c8cc79;
+  --color-on-primary-container: #291915;
+  --color-secondary: #b97549;
+  --color-on-secondary: #291915;
+  --color-secondary-container: #3a241e;
+  --color-on-secondary-container: #e4e5bd;
+  --color-tertiary: #8a7464;
+  --color-on-tertiary: #291915;
+  --color-tertiary-container: #33201b;
+  --color-on-tertiary-container: #d9d7b4;
+  --color-error: #e0644a;
+  --color-on-error: #291915;
+  --color-error-container: #4a1f16;
+  --color-on-error-container: #f3c2b4;
+  --color-background: #291915;
+  --color-on-background: #e2e3b8;
+  --color-surface: #291915;
+  --color-on-surface: #e2e3b8;
+  --color-surface-variant: #3a241e;
+  --color-on-surface-variant: #a99583;
+  --color-surface-tint: #c8cc79;
+  --color-surface-dim: #1f120f;
+  --color-surface-bright: #3a241e;
+  --color-surface-container-lowest: #1f120f;
+  --color-surface-container-low: #22150f;
+  --color-surface-container: #33201b;
+  --color-surface-container-high: #3a241e;
+  --color-surface-container-highest: #452c24;
+  --color-outline: #b97549;
+  --color-outline-variant: #4a3028;
+  --color-inverse-surface: #c8cc79;
+  --color-inverse-on-surface: #291915;
+  --color-inverse-primary: #291915;
+  --color-primary-fixed: #c8cc79;
+  --color-primary-fixed-dim: #b3b768;
+  --color-on-primary-fixed: #291915;
+  --color-on-primary-fixed-variant: #3a241e;
+
+  --font-display-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display-weight: 300;
+  --font-display-letter-spacing: 0.02em;
+
+  --font-headline-xl-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-headline-xl-size: 40px;
+  --font-headline-xl-weight: 300;
+  --font-headline-xl-line-height: 1;
+  --font-headline-xl-letter-spacing: 0.01em;
+  --font-headline-lg-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-headline-lg-size: 32px;
+  --font-headline-lg-weight: 600;
+  --font-headline-lg-line-height: 1.15;
+  --font-headline-lg-letter-spacing: -0.01em;
+  --font-headline-md-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-headline-md-size: 24px;
+  --font-headline-md-weight: 600;
+  --font-headline-md-line-height: 1.2;
+  --font-headline-md-letter-spacing: -0.01em;
+  --font-body-lg-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-body-lg-size: 20px;
+  --font-body-lg-weight: 400;
+  --font-body-lg-line-height: 1.45;
+  --font-body-lg-letter-spacing: 0em;
+  --font-body-md-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-body-md-size: 16px;
+  --font-body-md-weight: 400;
+  --font-body-md-line-height: 1.55;
+  --font-body-md-letter-spacing: 0em;
+  --font-label-md-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-label-md-size: 14px;
+  --font-label-md-weight: 500;
+  --font-label-md-line-height: 1.2;
+  --font-label-md-letter-spacing: 0.06em;
+  --font-label-sm-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-label-sm-size: 12px;
+  --font-label-sm-weight: 400;
+  --font-label-sm-line-height: 1.4;
+  --font-label-sm-letter-spacing: 0.06em;
+
+  --spacing-base: 5px;
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 20px;
+  --spacing-lg: 36px;
+  --spacing-xl: 72px;
+  --spacing-layout-margin: 20px;
+  --spacing-card-gap: 36px;
+  --radius-sm: 0px;
+  --radius-DEFAULT: 0px;
+  --radius-md: 6px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+  --duration-fast: 0.2s;
+  --duration-base: 0.4s;
+  --easing-standard: ease-in-out;
+}

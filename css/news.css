@@ -17,7 +17,7 @@
 
 .tabs__tab--active {
   color: var(--color-primary);
-  border-bottom-color: var(--color-primary);
+  border-bottom-color: var(--color-secondary);
 }
 
 .tabs__panel {
@@ -44,11 +44,11 @@
 }
 
 .news-row__day {
-  font-family: var(--font-body-lg-family);
-  font-size: calc(var(--font-body-lg-size) * 2);
-  font-weight: var(--font-body-lg-weight);
+  font-family: var(--font-display-family);
+  font-size: calc(var(--font-body-lg-size) * 2.4);
+  font-weight: var(--font-display-weight);
   line-height: 1;
-  color: var(--color-on-surface);
+  color: var(--color-primary);
 }
 
 .news-row__month {
@@ -56,7 +56,7 @@
   font-size: var(--font-label-sm-size);
   letter-spacing: var(--font-label-sm-letter-spacing);
   text-transform: uppercase;
-  color: var(--color-on-surface-variant);
+  color: var(--color-secondary);
 }
 
 .news-row__body {

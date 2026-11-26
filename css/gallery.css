@@ -12,6 +12,7 @@
 
 .gallery__item .media {
   aspect-ratio: 1 / 1;
+  border-radius: var(--radius-md);
 }
 
 @media (max-width: 1024px) {

@@ -11,7 +11,7 @@
 
 .bio__text p {
   font-family: var(--font-body-lg-family);
-  font-size: var(--font-body-lg-size);
+  font-size: calc(var(--font-body-lg-size) - 2px);
   font-weight: var(--font-body-lg-weight);
   line-height: var(--font-body-lg-line-height);
   color: var(--color-on-surface);
@@ -37,6 +37,45 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* Citron block — "01 / The Artist" */
+.section--citron {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+.section--citron + .section {
+  border-top: 0;
+}
+
+.section--citron .section__title {
+  color: var(--color-on-primary);
+}
+
+.section--citron .bio__text p {
+  color: var(--color-on-primary);
+}
+
+.bio__text .bio__headline {
+  margin-top: 0;
+  font-family: var(--font-headline-lg-family);
+  font-size: clamp(32px, 4.2vw, 52px);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+}
+
+.section--citron .bio__headline {
+  color: var(--color-on-primary);
+}
+
+.bio__text .bio__headline + p {
+  margin-top: var(--spacing-lg);
+}
+
+.bio .media {
+  border-radius: var(--radius-lg);
+}
+
 @media (max-width: 1024px) {
   .blog__grid.latest-posts__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -55,6 +94,6 @@
   }
 
   .bio .media {
-    max-width: calc(var(--spacing-xl) * 3);
+    max-width: none;
   }
 }

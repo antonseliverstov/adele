@@ -1,5 +1,6 @@
 .site-footer {
-  background: var(--color-surface-container-low);
+  background: var(--color-surface-container-lowest);
+  border-top: 1px solid var(--color-secondary);
 }
 
 .site-footer__inner {
@@ -22,7 +23,7 @@
   display: block;
   width: var(--spacing-md);
   height: var(--spacing-md);
-  color: var(--color-on-surface-variant);
+  color: var(--color-secondary);
   transition: color var(--duration-fast) var(--easing-standard);
 }
 

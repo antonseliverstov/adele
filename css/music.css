@@ -5,7 +5,11 @@
 }
 
 .mix__title {
-  text-transform: uppercase;
+  font-family: var(--font-headline-md-family);
+  font-size: var(--font-headline-md-size);
+  font-weight: var(--font-headline-md-weight);
+  line-height: var(--font-headline-md-line-height);
+  color: var(--color-primary);
 }
 
 .mix__meta {
@@ -13,13 +17,15 @@
   font-family: var(--font-label-sm-family);
   font-size: var(--font-label-sm-size);
   letter-spacing: var(--font-label-sm-letter-spacing);
-  color: var(--color-on-surface-variant);
+  color: var(--color-secondary);
   text-transform: uppercase;
 }
 
 .embed {
   margin-top: var(--spacing-sm);
   aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
   background: var(--color-surface-container-high);
 }
 
@@ -80,14 +86,16 @@
   justify-content: center;
   width: calc(var(--spacing-xl) * 1.5);
   height: calc(var(--spacing-xl) * 1.5);
-  color: var(--color-on-surface-variant);
+  color: var(--color-secondary);
   border: 1px solid var(--color-outline-variant);
-  transition: color var(--duration-fast) var(--easing-standard);
+  border-radius: var(--radius-lg);
+  transition: color var(--duration-fast) var(--easing-standard), border-color var(--duration-fast) var(--easing-standard);
 }
 
 .stream__list a:hover,
 .stream__list a:focus-visible {
   color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .stream__list svg {

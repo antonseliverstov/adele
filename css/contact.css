@@ -19,7 +19,7 @@
 .channel__icon {
   width: calc(var(--spacing-xl) * 0.5);
   height: calc(var(--spacing-xl) * 0.5);
-  color: var(--color-on-surface-variant);
+  color: var(--color-secondary);
   flex-shrink: 0;
 }
 
@@ -33,12 +33,15 @@
   font-weight: var(--font-label-md-weight);
   letter-spacing: var(--font-label-md-letter-spacing);
   text-transform: uppercase;
-  color: var(--color-on-surface);
+  color: var(--color-secondary);
 }
 
 .channel__value {
   margin-top: var(--spacing-xs);
-  color: var(--color-on-surface-variant);
+  font-family: var(--font-headline-md-family);
+  font-size: var(--font-headline-md-size);
+  font-weight: var(--font-headline-md-weight);
+  color: var(--color-primary);
 }
 
 .management {
