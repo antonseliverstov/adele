@@ -150,5 +150,7 @@ window.ADEL_I18N.cs = {
   "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon za pultem v Tulum Beach Bar",
   "Adele Moon at Nissi Bay Beach Bar": "Adele Moon v Nissi Bay Beach Bar",
   "Sunset set at Tulum Beach Bar": "Set při západu slunce v Tulum Beach Bar",
-  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon se směje během setu v Tulum Beach Bar"
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon se směje během setu v Tulum Beach Bar",
+  "Adele Moon behind the decks": "Adele Moon za pultem",
+  "Adele Moon by the sea": "Adele Moon u moře"
 };

@@ -147,3 +147,31 @@
     right: var(--spacing-md);
   }
 }
+
+/* Artist photo: right half on desktop, full-bleed under the scrim on mobile */
+.hero__photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: min(52%, 860px);
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 30%;
+  filter: sepia(0.25) saturate(0.9) contrast(1.02);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 38%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 38%);
+}
+
+@media (max-width: 768px) {
+  .hero__photo {
+    width: 100%;
+    object-position: 50% 20%;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .hero__scrim {
+    background:
+      linear-gradient(to top, var(--color-background) 0%, color-mix(in srgb, var(--color-background) 80%, transparent) 40%, color-mix(in srgb, var(--color-background) 25%, transparent) 75%, color-mix(in srgb, var(--color-background) 45%, transparent) 100%);
+  }
+}

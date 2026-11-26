@@ -150,5 +150,7 @@ window.ADEL_I18N.hu = {
   "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon a pult mögött a Tulum Beach Barban",
   "Adele Moon at Nissi Bay Beach Bar": "Adele Moon a Nissi Bay Beach Barban",
   "Sunset set at Tulum Beach Bar": "Naplementés szett a Tulum Beach Barban",
-  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon nevet egy szett közben a Tulum Beach Barban"
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon nevet egy szett közben a Tulum Beach Barban",
+  "Adele Moon behind the decks": "Adele Moon a keverőpult mögött",
+  "Adele Moon by the sea": "Adele Moon a tengerparton"
 };

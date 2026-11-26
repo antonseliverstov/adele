@@ -150,5 +150,7 @@ window.ADEL_I18N.fi = {
   "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon DJ-pöydän takana Tulum Beach Barissa",
   "Adele Moon at Nissi Bay Beach Bar": "Adele Moon Nissi Bay Beach Barissa",
   "Sunset set at Tulum Beach Bar": "Auringonlaskusetti Tulum Beach Barissa",
-  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon nauraa setin aikana Tulum Beach Barissa"
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon nauraa setin aikana Tulum Beach Barissa",
+  "Adele Moon behind the decks": "Adele Moon DJ-pöydän takana",
+  "Adele Moon by the sea": "Adele Moon meren rannalla"
 };

@@ -150,5 +150,7 @@ window.ADEL_I18N.ro = {
   "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon la pupitru în Tulum Beach Bar",
   "Adele Moon at Nissi Bay Beach Bar": "Adele Moon la Nissi Bay Beach Bar",
   "Sunset set at Tulum Beach Bar": "Set la apus în Tulum Beach Bar",
-  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon râzând în timpul unui set la Tulum Beach Bar"
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon râzând în timpul unui set la Tulum Beach Bar",
+  "Adele Moon behind the decks": "Adele Moon la pupitru",
+  "Adele Moon by the sea": "Adele Moon la mare"
 };

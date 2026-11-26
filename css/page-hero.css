@@ -54,3 +54,7 @@
     padding-inline: var(--spacing-md);
   }
 }
+
+.page-hero__media {
+  object-position: 50% 28%;
+}
