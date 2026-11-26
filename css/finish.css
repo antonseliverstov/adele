@@ -1,0 +1,156 @@
+/* ADELE MOON — premium finish
+   3) velvet tone + film grain on every block
+   4) passe-partout frame on key blocks (.passepartout)
+   6) copper foil on labels and hairlines */
+
+:root {
+  --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  --velvet-dark:
+    radial-gradient(120% 90% at 15% 0%, #3d261f 0%, transparent 60%),
+    radial-gradient(90% 80% at 100% 100%, #1a0f0c 0%, transparent 70%),
+    var(--brand-espresso);
+  --velvet-dark-alt:
+    radial-gradient(120% 90% at 85% 0%, #3d261f 0%, transparent 60%),
+    radial-gradient(90% 80% at 0% 100%, #1a0f0c 0%, transparent 70%),
+    var(--brand-espresso);
+  --velvet-citron:
+    radial-gradient(120% 100% at 15% 0%, #dadd93 0%, transparent 55%),
+    radial-gradient(100% 90% at 100% 100%, #b4b866 0%, transparent 70%),
+    var(--brand-citron);
+  --foil: linear-gradient(90deg, #8a5233 0%, #e0a77a 28%, #b97549 50%, #f1c39b 72%, #8a5233 100%);
+  --foil-text: linear-gradient(90deg, #a5643c 0%, #f0c096 45%, #b97549 70%, #e7b088 100%);
+}
+
+/* ---------- 3. Velvet + grain ---------- */
+
+.section,
+.site-footer {
+  position: relative;
+  isolation: isolate;
+  background: var(--velvet-dark);
+}
+
+.section:nth-of-type(even) {
+  background: var(--velvet-dark-alt);
+}
+
+.section.section--citron {
+  background: var(--velvet-citron);
+}
+
+.section::after,
+.site-footer::after,
+.hero::after,
+.page-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: var(--grain);
+  mix-blend-mode: soft-light;
+  opacity: 0.55;
+}
+
+.section--citron::after {
+  mix-blend-mode: multiply;
+  opacity: 0.28;
+}
+
+.section > *,
+.site-footer > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__content,
+.hero__social,
+.page-hero__title {
+  z-index: 2;
+}
+
+/* ---------- 4. Passe-partout ---------- */
+
+.passepartout {
+  --pp-inset: clamp(10px, 1.6vw, 20px);
+  padding-block: calc(var(--spacing-xl) + var(--pp-inset));
+}
+
+.passepartout::before {
+  content: '';
+  position: absolute;
+  inset: var(--pp-inset);
+  z-index: 1;
+  pointer-events: none;
+  border: 1px solid color-mix(in srgb, var(--brand-copper) 70%, transparent);
+}
+
+.section--citron.passepartout::before {
+  border-color: color-mix(in srgb, var(--brand-espresso) 40%, transparent);
+}
+
+/* ---------- 6. Copper foil ---------- */
+
+.section__title,
+.hero__eyebrow {
+  background: var(--foil-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  width: fit-content;
+}
+
+.section--citron .section__title {
+  background: none;
+  color: var(--color-on-primary);
+}
+
+.hero__meta {
+  border-top: 0;
+  position: relative;
+}
+
+.hero__meta::before,
+.page-hero__title::after {
+  content: '';
+  display: block;
+  height: 1px;
+  border: 0;
+  background: var(--foil);
+}
+
+.hero__meta::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.site-footer {
+  border-top: 0;
+}
+
+.site-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 1px;
+  background: var(--foil);
+}
+
+.link {
+  border-bottom: 0;
+  background-image: var(--foil);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+
+@media (max-width: 768px) {
+  .passepartout {
+    padding-block: calc(var(--spacing-xl) * 0.75 + var(--pp-inset));
+  }
+}
