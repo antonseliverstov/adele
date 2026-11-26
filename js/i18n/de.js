@@ -130,5 +130,19 @@ window.ADEL_I18N.de = {
   "Slavic languages": "Slawische Sprachen",
   "Other languages": "Andere Sprachen",
   "Previous": "Zurück",
-  "Next": "Weiter"
+  "Next": "Weiter",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "Adele Moon lebt in Ayia Napa auf Zypern und bewegt sich als DJ frei zwischen Afrobeats, Amapiano und Afro House. Ihre Sets verbinden Log-Drum-Grooves und Live-Percussion mit warmen, hypnotischen Melodien – von Sunset-Sessions am Strand bis zu vollen Dancefloors spät in der Nacht.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Sie legt regelmäßig in der Tulum Beach Bar, der Nissi Bay Beach Bar und im Luna Park in Ayia Napa auf, teilt ihre Live-Sets mit einer wachsenden Online-Community und ist international buchbar.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Lebt in Ayia Napa, Zypern. International buchbar.",
+  "Live Sets": "Live-Sets",
+  "Watch": "Ansehen",
+  "Mar": "Mär",
+  "Feb": "Feb",
+  "New dates coming soon.": "Neue Termine folgen in Kürze.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "Du planst ein Event? Adele Moon spielt weltweit auf Clubnächten, Beach-Partys und Festivals.",
+  "Adele Moon on the coast of Cyprus": "Adele Moon an der Küste Zyperns",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon am DJ-Pult in der Tulum Beach Bar",
+  "Adele Moon at Nissi Bay Beach Bar": "Adele Moon in der Nissi Bay Beach Bar",
+  "Sunset set at Tulum Beach Bar": "Sunset-Set in der Tulum Beach Bar",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon lacht während eines Sets in der Tulum Beach Bar"
 };

@@ -136,5 +136,19 @@ window.ADEL_I18N.ro = {
   "ADELE MOON — Blog": "ADELE MOON — Blog",
   "Management": "Management",
   "Previous": "Înapoi",
-  "Next": "Înainte"
+  "Next": "Înainte",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "Stabilită în Ayia Napa, Cipru, Adele Moon este o DJ care se mișcă liber între afrobeats, amapiano și afro house. Seturile ei îmbină groove-uri de log drum și percuție live cu melodii calde și hipnotice — de la sesiuni la apus pe plajă la ringuri de dans pline în toiul nopții.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Cântă regulat la Tulum Beach Bar, Nissi Bay Beach Bar și Luna Park din Ayia Napa, își împărtășește seturile live cu o comunitate online în creștere și este disponibilă pentru booking-uri internaționale.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Stabilită în Ayia Napa, Cipru. Disponibilă pentru booking-uri internaționale.",
+  "Live Sets": "Seturi live",
+  "Watch": "Urmărește",
+  "Mar": "mar.",
+  "Feb": "feb.",
+  "New dates coming soon.": "Date noi în curând.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "Plănuiești un eveniment? Adele Moon cântă la seri în club, petreceri pe plajă și festivaluri din întreaga lume.",
+  "Adele Moon on the coast of Cyprus": "Adele Moon pe coasta Ciprului",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon la pupitru în Tulum Beach Bar",
+  "Adele Moon at Nissi Bay Beach Bar": "Adele Moon la Nissi Bay Beach Bar",
+  "Sunset set at Tulum Beach Bar": "Set la apus în Tulum Beach Bar",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon râzând în timpul unui set la Tulum Beach Bar"
 };

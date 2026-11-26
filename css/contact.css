@@ -64,3 +64,27 @@
     width: 100%;
   }
 }
+
+.contact__intro + .contact__base {
+  margin-top: calc(var(--spacing-lg) * -0.6);
+}
+
+.contact__base {
+  margin-bottom: var(--spacing-lg);
+  font-family: var(--font-headline-md-family);
+  font-size: var(--font-headline-md-size);
+  font-weight: var(--font-headline-md-weight);
+  line-height: var(--font-headline-md-line-height);
+  color: var(--color-primary);
+  max-width: 28ch;
+}
+
+.channel__value {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+  .channel__value {
+    font-size: calc(var(--font-headline-md-size) - 4px);
+  }
+}

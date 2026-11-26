@@ -136,5 +136,19 @@ window.ADEL_I18N.tr = {
   "ADELE MOON — Blog": "ADELE MOON — Blog",
   "Management": "Menajerlik",
   "Previous": "Önceki",
-  "Next": "Sonraki"
+  "Next": "Sonraki",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "Kıbrıs'ta Ayia Napa'da yaşayan Adele Moon, afrobeats, amapiano ve afro house arasında özgürce dolaşan bir DJ. Setlerinde log drum groove'ları ve canlı perküsyon sıcak, hipnotik melodilerle buluşuyor; plajda gün batımı seanslarından gece geç saatlerin dolu dans pistlerine kadar.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Ayia Napa'daki Tulum Beach Bar, Nissi Bay Beach Bar ve Luna Park'ta düzenli olarak çalıyor, canlı setlerini büyüyen online kitlesiyle paylaşıyor ve uluslararası rezervasyonlara açık.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Ayia Napa, Kıbrıs'ta yaşıyor. Uluslararası rezervasyonlara açık.",
+  "Live Sets": "Canlı setler",
+  "Watch": "İzle",
+  "Mar": "Mar",
+  "Feb": "Şub",
+  "New dates coming soon.": "Yeni tarihler çok yakında.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "Bir etkinlik mi planlıyorsunuz? Adele Moon dünyanın her yerinde kulüp gecelerinde, plaj partilerinde ve festivallerde çalıyor.",
+  "Adele Moon on the coast of Cyprus": "Kıbrıs kıyısında Adele Moon",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Tulum Beach Bar'da DJ kabininde Adele Moon",
+  "Adele Moon at Nissi Bay Beach Bar": "Nissi Bay Beach Bar'da Adele Moon",
+  "Sunset set at Tulum Beach Bar": "Tulum Beach Bar'da gün batımı seti",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Tulum Beach Bar'da bir set sırasında gülen Adele Moon"
 };

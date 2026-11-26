@@ -26,3 +26,24 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.gallery__grid--feature .gallery__item:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.gallery__grid--feature .gallery__item:first-child .media {
+  height: 100%;
+}
+
+@media (min-width: 1025px) {
+  .gallery__grid--feature {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .gallery__grid--feature {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

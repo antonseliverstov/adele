@@ -136,5 +136,19 @@ window.ADEL_I18N.fi = {
   "ADELE MOON — Blog": "ADELE MOON — Blogi",
   "Management": "Management",
   "Previous": "Edellinen",
-  "Next": "Seuraava"
+  "Next": "Seuraava",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "Kyproksen Ayia Napassa asuva Adele Moon on DJ, joka liikkuu vapaasti afrobeatsin, amapianon ja afro housen välillä. Hänen setteissään log drum -groovet ja elävä perkussio kohtaavat lämpimät, hypnoottiset melodiat – auringonlaskusessioista rannalla täysiin tanssilattioihin myöhään yöllä.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Hän soittaa säännöllisesti Tulum Beach Barissa, Nissi Bay Beach Barissa ja Ayia Napan Luna Parkissa, jakaa livesettejään kasvavalle yleisölle verkossa ja on varattavissa kansainvälisesti.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Asuu Ayia Napassa, Kyproksella. Varattavissa kansainvälisesti.",
+  "Live Sets": "Livesetit",
+  "Watch": "Katso",
+  "Mar": "maalis",
+  "Feb": "helmi",
+  "New dates coming soon.": "Uusia päivämääriä tulossa pian.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "Suunnitteletko tapahtumaa? Adele Moon soittaa klubi-illoissa, rantabileissä ja festivaaleilla ympäri maailmaa.",
+  "Adele Moon on the coast of Cyprus": "Adele Moon Kyproksen rannikolla",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon DJ-pöydän takana Tulum Beach Barissa",
+  "Adele Moon at Nissi Bay Beach Bar": "Adele Moon Nissi Bay Beach Barissa",
+  "Sunset set at Tulum Beach Bar": "Auringonlaskusetti Tulum Beach Barissa",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon nauraa setin aikana Tulum Beach Barissa"
 };

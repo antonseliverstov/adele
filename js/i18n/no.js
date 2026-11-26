@@ -136,5 +136,19 @@ window.ADEL_I18N.no = {
   "ADELE MOON — Blog": "ADELE MOON — Blogg",
   "Management": "Management",
   "Previous": "Forrige",
-  "Next": "Neste"
+  "Next": "Neste",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "Adele Moon bor i Ayia Napa på Kypros og beveger seg som DJ fritt mellom afrobeats, amapiano og afro house. Settene hennes blander log drum-groover og levende perkusjon med varme, hypnotiske melodier – fra solnedgangsøkter på stranden til fullpakkede dansegulv sent på natten.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Hun spiller jevnlig på Tulum Beach Bar, Nissi Bay Beach Bar og Luna Park i Ayia Napa, deler livesettene sine med et voksende publikum på nett og kan bookes internasjonalt.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Bor i Ayia Napa, Kypros. Kan bookes internasjonalt.",
+  "Live Sets": "Livesett",
+  "Watch": "Se",
+  "Mar": "mar",
+  "Feb": "feb",
+  "New dates coming soon.": "Nye datoer kommer snart.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "Planlegger du et arrangement? Adele Moon spiller på klubbkvelder, strandfester og festivaler over hele verden.",
+  "Adele Moon on the coast of Cyprus": "Adele Moon ved kysten av Kypros",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon bak platespillerne på Tulum Beach Bar",
+  "Adele Moon at Nissi Bay Beach Bar": "Adele Moon på Nissi Bay Beach Bar",
+  "Sunset set at Tulum Beach Bar": "Solnedgangssett på Tulum Beach Bar",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon ler under et sett på Tulum Beach Bar"
 };

@@ -136,5 +136,19 @@ window.ADEL_I18N.hu = {
   "ADELE MOON — Blog": "ADELE MOON — Blog",
   "Management": "Management",
   "Previous": "Előző",
-  "Next": "Következő"
+  "Next": "Következő",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "A ciprusi Ayia Napában élő Adele Moon DJ-ként szabadon mozog az afrobeats, az amapiano és az afro house között. Szettjeiben a log drum groove-ok és az élő ütőhangszerek meleg, hipnotikus dallamokkal találkoznak – a naplementés tengerparti sessionöktől a késő éjszakai, zsúfolt táncparkettekig.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Rendszeresen játszik a Tulum Beach Barban, a Nissi Bay Beach Barban és az Ayia Napa-i Luna Parkban, élő szettjeit egyre nagyobb online közönséggel osztja meg, és nemzetközi fellépésekre is foglalható.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Ayia Napában, Cipruson él. Nemzetközi fellépésekre is foglalható.",
+  "Live Sets": "Élő szettek",
+  "Watch": "Megnézem",
+  "Mar": "márc.",
+  "Feb": "febr.",
+  "New dates coming soon.": "Hamarosan új időpontok.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "Eseményt szervezel? Adele Moon klubesteken, strandbulikon és fesztiválokon játszik szerte a világon.",
+  "Adele Moon on the coast of Cyprus": "Adele Moon a ciprusi tengerparton",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon a pult mögött a Tulum Beach Barban",
+  "Adele Moon at Nissi Bay Beach Bar": "Adele Moon a Nissi Bay Beach Barban",
+  "Sunset set at Tulum Beach Bar": "Naplementés szett a Tulum Beach Barban",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon nevet egy szett közben a Tulum Beach Barban"
 };

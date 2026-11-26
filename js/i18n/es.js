@@ -136,5 +136,19 @@ window.ADEL_I18N.es = {
   "ADELE MOON — Blog": "ADELE MOON — Blog",
   "Management": "Management",
   "Previous": "Anterior",
-  "Next": "Siguiente"
+  "Next": "Siguiente",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "Desde Ayia Napa, en Chipre, Adele Moon es una DJ que se mueve con libertad entre el afrobeats, el amapiano y el afro house. Sus sets combinan grooves de log drum y percusión en vivo con melodías cálidas e hipnóticas: de las sesiones al atardecer en la playa a las pistas llenas de madrugada.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Pincha con regularidad en Tulum Beach Bar, Nissi Bay Beach Bar y Luna Park, en Ayia Napa, comparte sus sets en directo con una comunidad online cada vez mayor y está disponible para contrataciones internacionales.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Desde Ayia Napa, Chipre. Disponible para contrataciones internacionales.",
+  "Live Sets": "Sets en directo",
+  "Watch": "Ver",
+  "Mar": "mar",
+  "Feb": "feb",
+  "New dates coming soon.": "Nuevas fechas muy pronto.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "¿Organizas un evento? Adele Moon pincha en noches de club, fiestas en la playa y festivales de todo el mundo.",
+  "Adele Moon on the coast of Cyprus": "Adele Moon en la costa de Chipre",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon a los platos en Tulum Beach Bar",
+  "Adele Moon at Nissi Bay Beach Bar": "Adele Moon en Nissi Bay Beach Bar",
+  "Sunset set at Tulum Beach Bar": "Set al atardecer en Tulum Beach Bar",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon riendo durante un set en Tulum Beach Bar"
 };

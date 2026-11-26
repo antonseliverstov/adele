@@ -136,5 +136,19 @@ window.ADEL_I18N.cs = {
   "ADELE MOON — Blog": "ADELE MOON — Blog",
   "Management": "Management",
   "Previous": "Předchozí",
-  "Next": "Další"
+  "Next": "Další",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "Adele Moon žije v Ayia Napě na Kypru. Jako DJka se volně pohybuje mezi afrobeats, amapiano a afro house. Její sety spojují groove log drumů a živé perkuse s hřejivými, hypnotickými melodiemi — od sunset sessions na pláži po plné taneční parkety pozdě v noci.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Pravidelně hraje v Tulum Beach Bar, Nissi Bay Beach Bar a Luna Park v Ayia Napě, sdílí své živé sety s rostoucím publikem na internetu a je k dispozici pro mezinárodní booking.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Žije v Ayia Napě na Kypru. K dispozici pro mezinárodní booking.",
+  "Live Sets": "Živé sety",
+  "Watch": "Sledovat",
+  "Mar": "bře",
+  "Feb": "úno",
+  "New dates coming soon.": "Nové termíny brzy.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "Plánujete akci? Adele Moon hraje na klubových večerech, plážových párty a festivalech po celém světě.",
+  "Adele Moon on the coast of Cyprus": "Adele Moon na pobřeží Kypru",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon za pultem v Tulum Beach Bar",
+  "Adele Moon at Nissi Bay Beach Bar": "Adele Moon v Nissi Bay Beach Bar",
+  "Sunset set at Tulum Beach Bar": "Set při západu slunce v Tulum Beach Bar",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon se směje během setu v Tulum Beach Bar"
 };

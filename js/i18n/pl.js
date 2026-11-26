@@ -136,5 +136,19 @@ window.ADEL_I18N.pl = {
   "ADELE MOON — Blog": "ADELE MOON — Blog",
   "Management": "Management",
   "Previous": "Poprzednie",
-  "Next": "Następne"
+  "Next": "Następne",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "Adele Moon mieszka w Ayia Napie na Cyprze. Jako DJ-ka swobodnie porusza się między afrobeats, amapiano i afro house. Jej sety łączą groove log drumów i żywą perkusję z ciepłymi, hipnotycznymi melodiami — od sesji o zachodzie słońca na plaży po pełne parkiety późną nocą.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Regularnie gra w Tulum Beach Bar, Nissi Bay Beach Bar i Luna Park w Ayia Napie, dzieli się setami na żywo z rosnącą publicznością w sieci i przyjmuje bookingi z całego świata.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Mieszka w Ayia Napie na Cyprze. Przyjmuje bookingi z całego świata.",
+  "Live Sets": "Sety na żywo",
+  "Watch": "Oglądaj",
+  "Mar": "mar",
+  "Feb": "lut",
+  "New dates coming soon.": "Nowe terminy wkrótce.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "Planujesz wydarzenie? Adele Moon gra na klubowych imprezach, plażowych party i festiwalach na całym świecie.",
+  "Adele Moon on the coast of Cyprus": "Adele Moon na wybrzeżu Cypru",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon za konsoletą w Tulum Beach Bar",
+  "Adele Moon at Nissi Bay Beach Bar": "Adele Moon w Nissi Bay Beach Bar",
+  "Sunset set at Tulum Beach Bar": "Set o zachodzie słońca w Tulum Beach Bar",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon śmieje się podczas setu w Tulum Beach Bar"
 };

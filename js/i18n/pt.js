@@ -136,5 +136,19 @@ window.ADEL_I18N.pt = {
   "ADELE MOON — Blog": "ADELE MOON — Blog",
   "Management": "Management",
   "Previous": "Anterior",
-  "Next": "Seguinte"
+  "Next": "Seguinte",
+  "Based in Ayia Napa, Cyprus, Adele Moon is a DJ moving freely between afrobeats, amapiano and afro house. Her sets blend log drum grooves and live percussion with warm, hypnotic melodies — from sunset sessions on the beach to packed late-night dancefloors.": "Radicada em Ayia Napa, no Chipre, Adele Moon é uma DJ que transita livremente entre afrobeats, amapiano e afro house. Os seus sets juntam grooves de log drum e percussão ao vivo a melodias quentes e hipnóticas — das sessões ao pôr do sol na praia às pistas cheias de madrugada.",
+  "She plays regularly at Tulum Beach Bar, Nissi Bay Beach Bar and Luna Park in Ayia Napa, shares her live sets with a growing online following, and is available for international bookings.": "Toca regularmente no Tulum Beach Bar, no Nissi Bay Beach Bar e no Luna Park, em Ayia Napa, partilha os seus sets ao vivo com um público online cada vez maior e está disponível para bookings internacionais.",
+  "Based in Ayia Napa, Cyprus. Available for international bookings.": "Radicada em Ayia Napa, Chipre. Disponível para bookings internacionais.",
+  "Live Sets": "Sets ao vivo",
+  "Watch": "Ver",
+  "Mar": "mar",
+  "Feb": "fev",
+  "New dates coming soon.": "Novas datas em breve.",
+  "Planning an event? Adele Moon is available for club nights, beach parties and festivals worldwide.": "Está a planear um evento? Adele Moon toca em noites de clube, festas de praia e festivais em todo o mundo.",
+  "Adele Moon on the coast of Cyprus": "Adele Moon na costa do Chipre",
+  "Adele Moon behind the decks at Tulum Beach Bar": "Adele Moon nos pratos no Tulum Beach Bar",
+  "Adele Moon at Nissi Bay Beach Bar": "Adele Moon no Nissi Bay Beach Bar",
+  "Sunset set at Tulum Beach Bar": "Set ao pôr do sol no Tulum Beach Bar",
+  "Adele Moon laughing during a set at Tulum Beach Bar": "Adele Moon a rir durante um set no Tulum Beach Bar"
 };
