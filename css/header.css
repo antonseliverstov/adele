@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 250;
   background: color-mix(in srgb, var(--color-background) 88%, transparent);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -19,6 +19,7 @@
 }
 
 .site-header__logo {
+  white-space: nowrap;
   font-family: var(--font-display-family);
   font-size: var(--font-body-lg-size);
   font-weight: 400;
@@ -230,7 +231,7 @@ body.no-scroll {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .site-header__nav {
     display: none;
   }

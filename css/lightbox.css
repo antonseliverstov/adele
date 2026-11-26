@@ -44,9 +44,11 @@
 }
 
 .lightbox__close {
-  position: absolute;
-  top: calc(var(--spacing-lg) * -1);
-  right: calc(var(--spacing-lg) * -1);
+  position: fixed;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  z-index: 2;
+  background: color-mix(in srgb, var(--color-background) 70%, transparent);
   width: calc(var(--spacing-xl) * 0.5);
   height: calc(var(--spacing-xl) * 0.5);
   display: flex;
