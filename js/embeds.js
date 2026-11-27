@@ -1,35 +1,22 @@
 (function () {
   'use strict';
 
-  var embeds = document.querySelectorAll('[data-embed] iframe[data-src]');
+  // Click-to-load players: nothing from YouTube or SoundCloud loads (and no
+  // third-party cookies are set) until the visitor presses play.
+  document.querySelectorAll('[data-embed-src]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var iframe = document.createElement('iframe');
+      iframe.src = button.getAttribute('data-embed-src');
+      iframe.title = button.getAttribute('data-embed-title') || '';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      iframe.allowFullscreen = true;
 
-  if (!embeds.length) {
-    return;
-  }
-
-  function load(iframe) {
-    var src = iframe.getAttribute('data-src');
-    if (src) {
-      iframe.src = src;
-    }
-    iframe.removeAttribute('data-src');
-  }
-
-  if (!('IntersectionObserver' in window)) {
-    embeds.forEach(load);
-    return;
-  }
-
-  var observer = new IntersectionObserver(function (entries, obs) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        load(entry.target);
-        obs.unobserve(entry.target);
-      }
+      var holder = document.createElement('div');
+      holder.className = button.className.replace('embed--facade', 'embed--loaded');
+      holder.appendChild(iframe);
+      button.replaceWith(holder);
+      iframe.focus();
     });
-  }, { rootMargin: '200px' });
-
-  embeds.forEach(function (iframe) {
-    observer.observe(iframe);
   });
 })();
