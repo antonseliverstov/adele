@@ -214,24 +214,3 @@
     left: var(--spacing-lg);
   }
 }
-
-/* Wide bold display for the artist name (Archivo Expanded 800, subset to the name's letters) */
-.hero__name {
-  font-family: 'Archivo', var(--font-display-family);
-  font-weight: 800;
-  font-stretch: expanded;
-  letter-spacing: -0.005em;
-  line-height: 0.88;
-}
-
-@media (min-width: 769px) {
-  .hero__name {
-    font-size: clamp(56px, 8vw, 168px);
-  }
-}
-
-@media (max-width: 768px) {
-  .hero__name {
-    font-size: clamp(44px, 16.5vw, 110px);
-  }
-}
