@@ -6,7 +6,7 @@ import hashlib, pathlib, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ORDER = ["tokens", "base", "layout", "header", "hero", "page-hero", "home", "news",
-         "music", "slider", "gallery", "lightbox", "contact", "footer", "finish"]
+         "music", "slider", "gallery", "lightbox", "contact", "footer", "finish", "theme-house"]
 
 parts = []
 for name in ORDER:

@@ -407,3 +407,102 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* ---------- Button arrow: drawn, never an emoji ---------- */
+
+.btn::after {
+  content: '';
+  flex: none;
+  width: 0.75em;
+  height: 0.75em;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M3.5 12.5 12 4M5 3.5h7.5V11' fill='none' stroke='black' stroke-width='1.6'/></svg>") center / contain no-repeat;
+  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M3.5 12.5 12 4M5 3.5h7.5V11' fill='none' stroke='black' stroke-width='1.6'/></svg>") center / contain no-repeat;
+}
+
+/* ---------- About photo: keep its proportions ---------- */
+
+.bio .media {
+  height: auto;
+  object-fit: cover;
+}
+
+/* ---------- Hero social icons on a frosted pill ---------- */
+
+.hero__social {
+  padding: 2px;
+  border-radius: var(--radius-full);
+  background: color-mix(in srgb, var(--brand-espresso) 55%, transparent);
+  border: 1px solid color-mix(in srgb, var(--brand-copper) 40%, transparent);
+  -webkit-backdrop-filter: blur(12px) saturate(1.2);
+  backdrop-filter: blur(12px) saturate(1.2);
+  gap: 0;
+}
+
+.hero__social a {
+  color: var(--color-primary);
+  border-radius: var(--radius-full);
+}
+
+.hero__social a:hover,
+.hero__social a:focus-visible {
+  color: var(--color-on-primary);
+  background: var(--color-primary);
+}
+
+/* ---------- Mobile hero: name, then photo, then details (no text over the photo) ---------- */
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 0;
+    padding: calc(var(--spacing-lg) + var(--spacing-md) + var(--spacing-lg)) var(--spacing-md) var(--spacing-lg);
+  }
+
+  .hero__content {
+    display: contents;
+  }
+
+  .hero__scrim {
+    display: none;
+  }
+
+  .hero__eyebrow {
+    order: 1;
+  }
+
+  .hero__name {
+    order: 2;
+    margin-top: var(--spacing-sm);
+  }
+
+  .hero__photo {
+    order: 3;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    margin-top: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    object-position: 50% 35%;
+    filter: none;
+  }
+
+  .hero__social {
+    order: 4;
+    position: relative;
+    z-index: 2;
+    top: auto;
+    right: auto;
+    left: auto;
+    align-self: flex-end;
+    margin: calc(-44px - 4px - 12px) 12px 0 0;
+  }
+
+  .hero__meta {
+    order: 5;
+    margin-top: var(--spacing-lg);
+  }
+}

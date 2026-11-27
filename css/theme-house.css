@@ -1,0 +1,135 @@
+/* ADELE MOON — House mood: night blue instead of espresso.
+   Citron and copper stay; everything brown becomes blue.
+   Applied with <html data-theme="house">. */
+
+[data-theme="house"] {
+  --brand-espresso: #0b1a36;
+
+  --color-on-primary: #0b1a36;
+  --color-on-primary-container: #0b1a36;
+  --color-on-secondary: #0b1a36;
+  --color-secondary-container: #17294d;
+  --color-tertiary: #7d8aa6;
+  --color-on-tertiary: #0b1a36;
+  --color-tertiary-container: #122244;
+  --color-on-tertiary-container: #d6dbe8;
+  --color-error-container: #3a1626;
+  --color-background: #0b1a36;
+  --color-surface: #0b1a36;
+  --color-surface-variant: #17294d;
+  --color-on-surface-variant: #9aa6c0;
+  --color-surface-dim: #071228;
+  --color-surface-bright: #17294d;
+  --color-surface-container-lowest: #071228;
+  --color-surface-container-low: #091630;
+  --color-surface-container: #122244;
+  --color-surface-container-high: #17294d;
+  --color-surface-container-highest: #1f3560;
+  --color-outline-variant: #243a66;
+  --color-inverse-on-surface: #0b1a36;
+  --color-inverse-primary: #0b1a36;
+  --color-on-primary-fixed: #0b1a36;
+  --color-on-primary-fixed-variant: #17294d;
+
+  --velvet-dark:
+    radial-gradient(120% 90% at 15% 0%, #1b3260 0%, transparent 60%),
+    radial-gradient(90% 80% at 100% 100%, #050d1f 0%, transparent 70%),
+    #0b1a36;
+  --velvet-dark-alt:
+    radial-gradient(120% 90% at 85% 0%, #1b3260 0%, transparent 60%),
+    radial-gradient(90% 80% at 0% 100%, #050d1f 0%, transparent 70%),
+    #0b1a36;
+
+  color-scheme: dark;
+}
+
+/* photos: no warm sepia in the blue mood, a touch of cool instead */
+[data-theme="house"] .hero__photo,
+[data-theme="house"] .page-hero__media {
+  filter: saturate(0.95) hue-rotate(-6deg);
+}
+
+/* smooth switch between moods */
+html.mood-anim body,
+html.mood-anim .section,
+html.mood-anim .site-header,
+html.mood-anim .site-footer,
+html.mood-anim .hero {
+  transition: background-color 0.5s ease, background 0.5s ease, color 0.5s ease;
+}
+
+/* ---------- Afro / House switch in the header ---------- */
+
+.mood-switch {
+  display: inline-flex;
+  align-items: center;
+  margin-left: var(--spacing-lg);
+  padding: 2px;
+  border: 1px solid color-mix(in srgb, var(--brand-copper) 55%, transparent);
+  border-radius: var(--radius-full);
+}
+
+.mood-switch__btn {
+  min-height: 32px;
+  padding: 0 14px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-label-md-family);
+  font-size: var(--font-label-sm-size);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-on-surface-variant);
+  transition: background var(--duration-fast) var(--easing-standard), color var(--duration-fast) var(--easing-standard);
+}
+
+.mood-switch__btn:hover,
+.mood-switch__btn:focus-visible {
+  color: var(--color-primary);
+}
+
+.mood-switch__btn[aria-pressed='true'] {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+@media (max-width: 1100px) {
+  .mood-switch {
+    margin-left: auto;
+  }
+
+  .mood-switch + .lang-switch,
+  .mood-switch ~ .lang-switch {
+    margin-left: var(--spacing-sm);
+  }
+}
+
+@media (max-width: 420px) {
+  .site-header__inner {
+    padding-inline: var(--spacing-md);
+    gap: var(--spacing-sm);
+  }
+
+  .site-header__logo {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+  }
+
+  .mood-switch__btn {
+    min-height: 30px;
+    padding: 0 9px;
+    letter-spacing: 0.04em;
+  }
+
+  .lang-switch {
+    margin-right: 0;
+  }
+
+  .lang-switch__code {
+    display: none;
+  }
+
+  .site-header__burger {
+    flex: none;
+    width: 28px;
+  }
+}
